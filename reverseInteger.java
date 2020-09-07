@@ -1,4 +1,4 @@
-class reverseString {
+class reverseInteger {
     public static void main(String[] args) {
       int case1 = 123;
       int expected = reverse(case1);
