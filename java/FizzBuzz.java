@@ -6,7 +6,7 @@ class FizzBuzz {
         for (int num = 1; num <= n; num++) {
             boolean div3 = (num % 3 == 0);
             boolean div5 = (num % 5 == 0);
-            
+
             String ans = "";
             if (div3) {
                 ans += "Fizz";
@@ -17,7 +17,7 @@ class FizzBuzz {
             if (ans.equals("")) {
                 ans += Integer.toString(num);
             }
-            
+
             returnList.add(ans);
         }
         return returnList;

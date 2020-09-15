@@ -1,10 +1,11 @@
 import java.util.*;
 
 public class BubbleSort {
-  public static int[] bubbleSort(int[] array) {
-    // Write your code here.
-    if (array.length == 0) return new int[] {};
-		
+	public static int[] bubbleSort(int[] array) {
+		// Write your code here.
+		if (array.length == 0)
+			return new int[] {};
+
 		boolean isSorted = false;
 		int counter = 0;
 		while (!isSorted) {
@@ -18,8 +19,8 @@ public class BubbleSort {
 			counter++;
 		}
 		return array;
-  }
-	
+	}
+
 	public static void swap(int i, int j, int[] array) {
 		int temp = array[j];
 		array[j] = array[i];

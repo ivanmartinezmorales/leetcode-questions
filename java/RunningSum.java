@@ -1,8 +1,8 @@
-import java.util.*
+import java.util.*;
 
 class RunningSum {
     public int[] runningSum(int[] nums) {
-        List<Integer> returnList = new ArrayList<Integer>();
+        List<Integer> returnList = new ArrayList<>();
         int runningTotal = nums[0];
         returnList.add(runningTotal);
         

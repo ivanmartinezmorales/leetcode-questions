@@ -1,7 +1,7 @@
 import java.util.*;
 
 class BstTraversal {
-  public static List<Integer> inOrderTraverse(BST tree, List<Integer> array) {
+  public static List<Integer> inOrderTraverse(final BST tree, final List<Integer> array) {
 		if (tree != null) {
 				inOrderTraverse(tree.left, array);
 				array.add(tree.value);
@@ -10,7 +10,7 @@ class BstTraversal {
 		return array;
   }
 
-  public static List<Integer> preOrderTraverse(BST tree, List<Integer> array) {
+  public static List<Integer> preOrderTraverse(final BST tree, final List<Integer> array) {
 		if (tree != null) {
 				array.add(tree.value);
 				preOrderTraverse(tree.left, array);
@@ -19,7 +19,7 @@ class BstTraversal {
 		return array;
   }
 
-  public static List<Integer> postOrderTraverse(BST tree, List<Integer> array) {
+  public static List<Integer> postOrderTraverse(final BST tree, final List<Integer> array) {
 		if (tree != null) {
 				postOrderTraverse(tree.left, array);
 				postOrderTraverse(tree.right, array);
@@ -33,7 +33,7 @@ class BstTraversal {
     public BST left;
     public BST right;
 
-    public BST(int value) {
+    public BST(final int value) {
       this.value = value;
     }
   }
