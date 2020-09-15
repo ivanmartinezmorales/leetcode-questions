@@ -36,5 +36,8 @@ func (tree *BST) PostOrderTraverse(array []int) []int {
 	}
 	if tree.Right != nil {
 		array = tree.Right.PostOrderTraverse(array)
-	} array = append(array, tree.Value) return array
+	} 
+
+	array = append(array, tree.Value)
+	return array
 }
