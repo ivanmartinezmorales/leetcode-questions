@@ -1,7 +1,6 @@
-A collection of Leetcode questions answered in Go and Java ✨
--------------------------------------------------------------
-
-- Use the Java folder to see solutions to Java problems
-- Use the Golang folder to see the solutions to Go problems
-
--------------------------------------------------------------
+A collection of Leetcode questions answered in Go, Java, and Swift ✨
+---------------------------------------------------------------------
+- See the Java folder to see solutions to Java problems
+- See the Golang folder to see the solutions to Go problems
+- See the Swift folder to see solutions to Swift problems
+---------------------------------------------------------------------
