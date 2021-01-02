@@ -8,10 +8,29 @@ type BinaryTree struct {
 	Parent *BinaryTree
 }
 
-func FindSuccessor(tree *BinaryTree, node *BinaryTree) *BinaryTree {
+func findSuccessor(tree *BinaryTree, node *BinaryTree) *BinaryTree {
+	tOrder := []*BinaryTree{}
+	getInOrderTraversal(tree, &traversalOrder)
+
+	for i, current := range tOrder {
+		if current != node {
+			continue
+		}
+
+		if i == len(tOrder)-1 {
+			return nil
+		}
+		return tOrder[i+1]
+	}
 	return nil
 }
 
-func getInOrderTraversal() {
+func getInOrderTraversal(node *BinaryTree, order *[]*BinaryTree) {
+	if node == nil {
+		return
+	}
 
+	getInOrderTraversal(node.Left, order)
+	*order = append(*order, node)
+	getInOrderTraversal(node.Right, order)
 }

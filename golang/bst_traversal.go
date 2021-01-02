@@ -16,7 +16,7 @@ func (tree *BST) InOrderTraverse(array []int) []int {
 		array = tree.Right.InOrderTraverse(array)
 	}
 	return array
-	
+
 }
 
 func (tree *BST) PreOrderTraverse(array []int) []int {
@@ -36,7 +36,7 @@ func (tree *BST) PostOrderTraverse(array []int) []int {
 	}
 	if tree.Right != nil {
 		array = tree.Right.PostOrderTraverse(array)
-	} 
+	}
 
 	array = append(array, tree.Value)
 	return array
