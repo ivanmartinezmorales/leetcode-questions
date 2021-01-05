@@ -7,4 +7,3 @@ func (n *Node) depthFirstSearch(arr []string) []string {
 	}
 	return arr
 }
-
