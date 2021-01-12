@@ -1,4 +1,4 @@
-package main
+package trees
 
 type BST struct {
 	Value int

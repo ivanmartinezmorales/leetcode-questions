@@ -26,9 +26,8 @@ func MaxInt(a ...int) int {
 	case 2:
 		if a[0] > a[1] {
 			return a[0]
-		} else {
-			return a[1]
 		}
+		return a[1]
 	default:
 		m := math.MinInt32
 		for _, k := range a {
@@ -50,9 +49,8 @@ func MinInt(a ...int) int {
 	case 2:
 		if a[0] > a[1] {
 			return a[1]
-		} else {
-			return a[0]
 		}
+		return a[0]
 	default:
 		m := math.MaxInt32
 		for _, k := range a {

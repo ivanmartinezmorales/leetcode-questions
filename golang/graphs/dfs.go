@@ -1,4 +1,4 @@
-package main
+package graph
 
 func (n *Node) depthFirstSearch(arr []string) []string {
 	arr = append(arr, n.Name)
