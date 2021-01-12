@@ -1,4 +1,4 @@
-package main
+package arrays
 
 func findKthPositive(arr []int, k int) int {
 	if k <= arr[0]-1 {

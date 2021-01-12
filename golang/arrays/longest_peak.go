@@ -1,4 +1,4 @@
-package main
+package arrays
 
 func LongestPeak(array []int) int {
 	if len(array) < 3 {

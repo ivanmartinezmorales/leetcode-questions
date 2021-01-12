@@ -1,4 +1,4 @@
-package main
+package string
 
 type substring struct {
 	left  int

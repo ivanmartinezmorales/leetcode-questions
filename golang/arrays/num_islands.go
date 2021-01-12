@@ -1,4 +1,4 @@
-package main 
+package arrays
 
 func numIslands(grid [][]byte) int {
 	if grid == nil || len(grid) == 0 {
@@ -24,7 +24,7 @@ func dfs(grid [][]byte, row, col int) int {
 	grid[row][col] = '0'
 	dfs(grid, row+1, col)
 	dfs(grid, row-1, col)
-	dfs(grid, row, col + 1)
-	dfs(grid, row, col - 1)
-    return 1
+	dfs(grid, row, col+1)
+	dfs(grid, row, col-1)
+	return 1
 }

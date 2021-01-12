@@ -1,4 +1,4 @@
-package main
+package trees
 
 type BinaryTree struct {
 	Value int
@@ -12,11 +12,9 @@ func (tree *BinaryTree) InvertBinaryTree() {
 	if tree.Left != nil {
 		tree.Left.InvertBinaryTree()
 	}
-	
+
 	if tree.Right != nil {
 		tree.Right.InvertBinaryTree()
 	}
-	
-		
-}
 
+}

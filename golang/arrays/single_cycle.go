@@ -1,4 +1,4 @@
-package main
+package arrays
 
 func HasSingleCycle(array []int) bool {
 	return hasSingleCycle(array, 0)

@@ -1,4 +1,4 @@
-package main
+package arrays
 
 func SunsetViews(b []int, d string) []int {
 	// Given an array of buildings and a direction,

@@ -1,4 +1,4 @@
-package main
+package dynamic
 
 func IsValidSubsequence(array []int, sequence []int) bool {
 	arrayIndex := 0

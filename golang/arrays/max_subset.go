@@ -1,4 +1,4 @@
-package main
+package arrays
 
 func MaxSubsetSumNoAdjacent(a []int) int {
 	if len(a) == 0 {

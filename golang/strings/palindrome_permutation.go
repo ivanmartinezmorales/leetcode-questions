@@ -1,4 +1,4 @@
-package main
+package string
 
 // CanPermutatePalindrome determines if a permutation of a given string s
 // could form a palindrome

@@ -1,4 +1,4 @@
-package main
+package arrays
 
 func findNumbers(nums []int) int {
 	v := 0
@@ -14,7 +14,7 @@ func isEvenDigits(e int) bool {
 	c := 0
 	for e != 0 {
 		e /= 10
-		c += 1
+		c++
 	}
 	return c%2 == 0
 }

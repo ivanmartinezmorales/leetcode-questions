@@ -1,4 +1,4 @@
-package main
+package arrays
 
 func ArrayOfProducts(array []int) []int {
 	products := []int{}

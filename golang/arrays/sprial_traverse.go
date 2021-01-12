@@ -1,4 +1,4 @@
-package main
+package arrays
 
 func SpiralTraverse(array [][]int) []int {
 	// Write a function that takes an n x m 2-D array and
