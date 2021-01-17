@@ -2,6 +2,7 @@ public class AddTwoNumbers {
     public ListNode addTwoNumbers(listNode l1, ListNode l2) {
         ListNode temp = new ListNode(0);
         ListNode a = l1, 
+        System.out.println("bet");
     }
 }
 
