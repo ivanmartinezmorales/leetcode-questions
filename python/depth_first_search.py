@@ -7,9 +7,15 @@ class Node:
         self.children.append(Node(name))
         return self
 
-    def depthFirstSearch(self, array):
+    def travereArrayDFS(self, array):
         array.append(self.name)
         for child in self.children:
             child.depthFirstSearch(array)
         return array
 
+    def depthFirstSearch(self, val):
+        if self.name == val:
+            return True
+        for child in self.children:
+            child.depthFirstSearch(val)
+        return False
