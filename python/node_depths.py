@@ -1,4 +1,4 @@
-def nodeDepths(root, depth=0):
+def nodeDepthsRecursive(root, depth=0):
     # Write your code here.
     if not root:
 	return 0
